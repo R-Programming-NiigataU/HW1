@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "HW1-1 Test",
+      "setup": "Rscript -e 'install.packages(\"testthat\", repos=\"https://cran.rstudio.com\")'",
+      "run": "Rscript -e 'testthat::test_file(\"tests/test_hw1.R\")'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10
+    },
+    {
+      "name": "HW1-2 Test",
+      "setup": "",
+      "run": "Rscript -e 'testthat::test_file(\"tests/test_hw1.R\")'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10
+    }
+  ]
+}
